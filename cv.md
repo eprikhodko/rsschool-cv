@@ -54,7 +54,7 @@ String.prototype.toJadenCase = function () {
 
 During last half of 2021 I developed a web appication for music collectors. I worked with the designer and after three months we created a full-fledged product, where I was responsible for the code and implementation of the required features. The end result was a nice-looking application that allows users to keep track of their music collection.
 
-Here is a link to the project: https://github.com/eprikhodko/music-box
+Here is a link to the project: [https://github.com/eprikhodko/music-box](https://github.com/eprikhodko/music-box)
 
 Stack:
 
