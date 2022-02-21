@@ -65,3 +65,15 @@ Stack:
 - Google Firebase
 
 During the work on this project I learned how to use React Hooks and Styled Components and how to connect frontend with the backend.
+
+## Education
+
+2010-2014 Saint Petersburg State University of Aerospace Instrumentation
+Institute of computer systems and computer programming
+
+2021 Scrimba Coding School, Frontend Development
+
+## Languages
+
+Russian - Native speaker
+English - B1
