@@ -4,7 +4,7 @@
 
 - discord: eprikhodko
 - phone: +7 (952) 369-68-64
-- Telegram: @evgenyprikhodko
+- telegram: @evgenyprikhodko
 - mail: evgenyprikhodkodev@gmail.com
 - github: https://github.com/eprikhodko
 
@@ -68,10 +68,9 @@ During the work on this project I learned how to use React Hooks and Styled Comp
 
 ## Education
 
-2010-2014 Saint Petersburg State University of Aerospace Instrumentation
-Institute of computer systems and computer programming
-
-2021 Scrimba Coding School, Frontend Development
+- 2010-2014 Bachelor, Saint Petersburg State University of Aerospace Instrumentation
+  - Institute of computer systems and computer programming
+- 2021 Scrimba Coding School, Frontend Development
 
 ## Languages
 
