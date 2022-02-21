@@ -1,5 +1,7 @@
 # Evgeny Prikhodko
 
+## Junior Frontend Developer
+
 ## Contacts
 
 - discord: eprikhodko
