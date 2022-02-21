@@ -74,5 +74,5 @@ During the work on this project I learned how to use React Hooks and Styled Comp
 
 ## Languages
 
-Russian - Native speaker
-English - B1
+- Russian - Native speaker
+- English - B1
