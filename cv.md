@@ -2,11 +2,11 @@
 
 ## Contacts
 
-discord: eprikhodko
-phone: +7 (952) 369-68-64
-Telegram: @evgenyprikhodko
-mail: evgenyprikhodkodev@gmail.com
-github: https://github.com/eprikhodko
+- discord: eprikhodko
+- phone: +7 (952) 369-68-64
+- Telegram: @evgenyprikhodko
+- mail: evgenyprikhodkodev@gmail.com
+- github: https://github.com/eprikhodko
 
 ## About me
 
@@ -47,3 +47,21 @@ String.prototype.toJadenCase = function () {
   return jadenCasedArray.join(" ");
 };
 ```
+
+## Work experience
+
+### 2021 - working at fullstack pet-project
+
+During last half of 2021 I developed a web appication for music collectors. I worked with the designer and after three months we created a full-fledged product, where I was responsible for the code and implementation of the required features. The end result was a nice-looking application that allows users to keep track of their music collection.
+
+Here is a link to the project: https://github.com/eprikhodko/music-box
+
+Stack:
+
+- React
+- JavaScript (ES6+)
+- Styled Components
+- React Router
+- Google Firebase
+
+During the work on this project I learned how to use React Hooks and Styled Components and how to connect frontend with the backend.
