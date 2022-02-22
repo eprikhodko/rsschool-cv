@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #404040;
+  line-height: 1.6;
+
+  /* background-color: #495163; */
+}
+
+.container-main {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  border: 1px solid magenta;
+}
+
+.container-flex {
+  display: flex;
+
+  border: 5px solid saddlebrown;
+}
+
+.col {
+  border: 1px solid green;
+}
+
+.nav-list {
+  display: flex;
+
+  justify-content: right;
+}

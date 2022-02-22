@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon-cv.ico" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container-main">
+      <header>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="container-flex">
+          <div class="col">
+            <section class="photo">
+              <p>Evgeny Prikhodko</p>
+              <p>Junior Frontend Developer</p>
+            </section>
+            <section class="contacts">
+              <h3>Contacts</h3>
+              <ul>
+                <li>
+                  <p>phone: +7 (952) 369-68-64</p>
+                </li>
+                <li>
+                  <p>discord: eprikhodko</p>
+                </li>
+                <li>
+                  <p>telegram: @evgenyprikhodko</p>
+                </li>
+                <li>
+                  <p>mail: evgenyprikhodkodev@gmail.com</p>
+                </li>
+                <li>
+                  <p>
+                    github:
+                    <a href="https://github.com/eprikhodko"
+                      >https://github.com/eprikhodko</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </section>
+
+            <section class="skills">
+              <h3>Skills</h3>
+              <ul>
+                <li>
+                  <p>React</p>
+                </li>
+                <li>
+                  <p>JavaScript (ES6+)</p>
+                </li>
+                <li>
+                  <p>Styled Components</p>
+                </li>
+                <li>
+                  <p>React Router</p>
+                </li>
+                <li>
+                  <p>Google Firebase</p>
+                </li>
+                <li>
+                  <p>HTML</p>
+                </li>
+                <li>
+                  <p>CSS</p>
+                </li>
+                <li>
+                  <p>CSS</p>
+                </li>
+                <li>
+                  <p>Git / Github</p>
+                </li>
+              </ul>
+            </section>
+
+            <section class="languages">
+              <h3>Languages</h3>
+              <ul>
+                <li>
+                  <p>English - B1</p>
+                </li>
+                <li>
+                  <p>Russian - Native speaker</p>
+                </li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="col">
+            <section>
+              <h3>About me</h3>
+              In 2021 I learned frontend development at
+              [Scrimba](https://scrimba.com/). During my learning jorney I
+              discovered the world of web development and learned about modern
+              ways to make a quality website that is easy to maintain and
+              develop. My goal now is to find a cool team and get good
+              experience. I'd like to grow into a good, aspiring middle
+              developer in a year. Interests: amateur photography on a small
+              Fuji, hiking in the city.
+            </section>
+
+            <section>
+              <h3>Education</h3>
+              <p>
+                Bachelor, Saint Petersburg State University of Aerospace
+                Instrumentation
+              </p>
+              <p>Institute of Computer Systems and Computer Programming</p>
+              <p>2010-2014</p>
+              <p>Scrimba Coding School, Frontend Development</p>
+              <p>2021</p>
+            </section>
+
+            <section>
+              <h3>Code example</h3>
+              <pre>
+                  <code>
+                    String.prototype.toJadenCase = function () {
+                        // split string into array of words
+                        const arrayOfWords = this.split(" ");
+                        // map array of words
+                        const jadenCasedArray = arrayOfWords.map((word) => {
+                          // make first letter of the word upper case
+                          const firstLetter = word.slice(0, 1).toUpperCase();
+                          // take rest of a word
+                          const restOfWord = word.slice(1);
+                          // return full word with uppercased first letter
+                          return firstLetter + restOfWord;
+                        });
+                      
+                        // return JadenCased string
+                        return jadenCasedArray.join(" ");
+                      };
+                  </code>
+              </pre>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container-main"></div>
+      </footer>
+    </div>
+  </body>
+</html>
