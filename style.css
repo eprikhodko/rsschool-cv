@@ -34,3 +34,23 @@ body {
 
   justify-content: right;
 }
+
+.my-photo {
+  max-width: 100%;
+  border: 5px solid #404040;
+  border-radius: 999px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.github-icon {
+  width: 32px;
+  background-color: #404040;
+}
