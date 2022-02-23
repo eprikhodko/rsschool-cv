@@ -13,12 +13,9 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
-  color: #404040;
   line-height: 1.6;
-
+  color: #404040;
   background: #dbdbdb;
-
-  /* background-color: #495163; */
 }
 
 /* ==================
@@ -59,6 +56,10 @@ h3 {
   border-bottom: 2px solid;
 }
 
+.text-white {
+  color: #ffffff;
+}
+
 /* ==================
     general layout
 ===================== */
@@ -66,19 +67,12 @@ h3 {
 .container-main {
   max-width: 1200px;
   margin: 0 auto;
-
-  /* border: 1px solid magenta; */
 }
 
 .col-left {
   width: 30%;
-
-  /* position: absolute; */
-
   padding: 3em;
   background-color: #ffffff;
-
-  /* border: 1px solid; */
 }
 
 .col-right {
@@ -107,8 +101,6 @@ h3 {
   padding: 1.5em 0;
 
   list-style: none;
-
-  /* border: 1px solid; */
 }
 
 .nav-item {
@@ -118,27 +110,17 @@ h3 {
 .nav-link {
   font-size: 1.8rem;
   font-weight: 500;
-  color: #404040;
-
   text-decoration: none;
-
-  /* border: 1px solid; */
+  color: #404040;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #000000;
-
   border-bottom: 2px solid #000000;
+  color: #000000;
 }
 
-/* main */
-
-.main {
-  /* margin-top: 2em; */
-}
-
-/* info */
+/* my photo, name and role */
 
 .name-info {
   display: flex;
@@ -147,9 +129,6 @@ h3 {
 }
 
 .my-photo {
-  /* width: 220px; */
-  /* margin: 0 auto; */
-
   width: 14em;
   border: 1px solid #dbdbdb;
   border-radius: 999px;
@@ -160,7 +139,6 @@ h3 {
 .contacts-list {
   margin: 0;
   padding: 0;
-
   list-style: none;
 }
 
@@ -169,42 +147,32 @@ h3 {
   align-items: center;
 }
 
-.list-item img {
-  margin-right: 1em;
+/* styles for the icons in the contacts */
 
+.list-item img {
   width: 2em;
+  margin-right: 1em;
 }
+
+/* styles for the text to the right of icons */
 
 .list-item p {
   margin: 0.6em 0;
 }
 
-.list-item a {
-  /* font-size: 1.8rem; */
-  /* font-weight: 500; */
-  color: #404040;
+/* styles for the github link */
 
+.github-link {
   text-decoration: none;
-
-  /* border: 1px solid; */
+  color: #404040;
 }
 
-.list-item a:hover,
-.list-item a:focus {
+.github-link:hover,
+.github-link:focus {
   color: #000000;
 }
 
-.flex {
-  display: flex;
-}
-
-.col {
-  border: 1px solid green;
-}
-
-.footer {
-  /* background-color: #ffffff; */
-}
+/* footer */
 
 .footer-content {
   display: flex;
@@ -212,7 +180,6 @@ h3 {
   align-items: center;
 
   padding: 0 3em;
-
   background-color: #505050;
 }
 
@@ -221,15 +188,13 @@ h3 {
   text-decoration: none;
 }
 
-.my-github {
-  display: flex;
-}
-
 .github-icon {
   width: 2em;
   margin-right: 1em;
 }
 
-.text-white {
-  color: #ffffff;
+/* other styles */
+
+.flex {
+  display: flex;
 }
