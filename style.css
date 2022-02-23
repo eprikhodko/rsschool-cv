@@ -160,18 +160,6 @@ h3 {
   margin: 0.6em 0;
 }
 
-/* styles for the github link */
-
-.github-link {
-  text-decoration: none;
-  color: #404040;
-}
-
-.github-link:hover,
-.github-link:focus {
-  color: #000000;
-}
-
 /* footer */
 
 .footer-content {
@@ -197,4 +185,14 @@ h3 {
 
 .flex {
   display: flex;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: #404040;
+}
+
+.custom-link:hover,
+.custom-link:focus {
+  color: #000000;
 }
