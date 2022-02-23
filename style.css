@@ -12,11 +12,37 @@ body {
   /* background-color: #495163; */
 }
 
+h1,
+h2,
+strong {
+  font-weight: 700;
+}
+
+/* ==================
+    general layout
+===================== */
+
 .container-main {
   max-width: 1200px;
   margin: 0 auto;
 
   border: 1px solid magenta;
+}
+
+/* navigation */
+
+.nav-list {
+  display: flex;
+  justify-content: right;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.nav-link {
+  color: #404040;
 }
 
 .flex {
@@ -25,12 +51,6 @@ body {
 
 .col {
   border: 1px solid green;
-}
-
-.nav-list {
-  display: flex;
-
-  justify-content: right;
 }
 
 .my-photo {
