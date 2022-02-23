@@ -2,10 +2,16 @@
   box-sizing: border-box;
 }
 
+/* set base font size to 10px */
+html {
+  /* 62.5% of 16px base font size is 10px */
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: #404040;
   line-height: 1.6;
 
@@ -26,7 +32,7 @@ strong {
   max-width: 1200px;
   margin: 0 auto;
 
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
 }
 
 /* navigation */
@@ -36,13 +42,31 @@ strong {
   justify-content: right;
 
   margin: 0;
-  padding: 0;
+  padding: 1.5em 0;
 
   list-style: none;
+  border: 1px solid;
+}
+
+.nav-item {
+  margin-left: 1em;
 }
 
 .nav-link {
+  font-size: 1.8rem;
+  font-weight: 500;
   color: #404040;
+
+  text-decoration: none;
+
+  /* border: 1px solid; */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #000000;
+
+  border-bottom: 2px solid #000000;
 }
 
 .flex {
