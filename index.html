@@ -19,30 +19,32 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <div class="container-main">
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#contacts" class="nav-link">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About me</a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="#code" class="nav-link">Code</a>
-            </li>
-            <li class="nav-item">
-              <a href="#education" class="nav-link">Education</a>
-            </li>
-            <li class="nav-item">
-              <a href="#languages" class="nav-link">Languages</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-content">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">Code</a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="nav-link">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#languages" class="nav-link">Languages</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -62,34 +64,27 @@
           <div class="contacts">
             <h3>Contacts</h3>
             <ul class="contacts-list">
-              <li>
-                <p>phone: +7 (952) 369-68-64</p>
-              </li>
               <li class="list-item">
-                <img
-                  src="./assets/icons/phone.svg"
-                  alt="Phone Icon"
-                  width="30"
-                  height="30"
-                />
+                <img src="./assets/icons/phone.svg" alt="phone icon" />
                 <p>+7 (952) 369-68-64</p>
               </li>
-              <li>
-                <p>discord: eprikhodko</p>
+              <li class="list-item">
+                <img src="./assets/icons/discord-icon.svg" alt="discord icon" />
+                <p>eprikhodko</p>
               </li>
-              <li>
-                <p>telegram: @evgenyprikhodko</p>
+              <li class="list-item">
+                <img src="./assets/icons/telegram.svg" alt="telegram icon" />
+                <p>@evgenyprikhodko</p>
               </li>
-              <li>
-                <p>mail: evgenyprikhodkodev@gmail.com</p>
+              <li class="list-item">
+                <img src="./assets/icons/email.svg" alt="email icon" />
+                <p>evgenyprikhodkodev@gmail.com</p>
               </li>
-              <li>
-                <p>
-                  github:
-                  <a href="https://github.com/eprikhodko"
-                    >https://github.com/eprikhodko</a
-                  >
-                </p>
+              <li class="list-item">
+                <img src="./assets/icons/github.svg" alt="github icon" />
+                <a href="https://github.com/eprikhodko"
+                  >https://github.com/eprikhodko</a
+                >
               </li>
             </ul>
           </div>
@@ -162,25 +157,25 @@
 
           <h3>Code example</h3>
           <pre>
-                  <code>
-                    String.prototype.toJadenCase = function () {
-                        // split string into array of words
-                        const arrayOfWords = this.split(" ");
-                        // map array of words
-                        const jadenCasedArray = arrayOfWords.map((word) => {
-                          // make first letter of the word upper case
-                          const firstLetter = word.slice(0, 1).toUpperCase();
-                          // take rest of a word
-                          const restOfWord = word.slice(1);
-                          // return full word with uppercased first letter
-                          return firstLetter + restOfWord;
-                        });
-                      
-                        // return JadenCased string
-                        return jadenCasedArray.join(" ");
-                      };
-                  </code>
-              </pre>
+             <code>
+String.prototype.toJadenCase = function () {
+    // split string into array of words
+    const arrayOfWords = this.split(" ");
+    // map array of words
+    const jadenCasedArray = arrayOfWords.map((word) => {
+        // make first letter of the word upper case
+        const firstLetter = word.slice(0, 1).toUpperCase();
+        // take rest of a word
+        const restOfWord = word.slice(1);
+        // return full word with uppercased first letter
+        return firstLetter + restOfWord;
+    });
+    
+    // return JadenCased string
+    return jadenCasedArray.join(" ");
+    };
+                </code>
+            </pre>
         </section>
       </div>
     </main>

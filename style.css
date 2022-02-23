@@ -15,6 +15,8 @@ body {
   color: #404040;
   line-height: 1.6;
 
+  background: #495163;
+
   /* background-color: #495163; */
 }
 
@@ -70,19 +72,31 @@ h3 {
 .col-left {
   width: 30%;
 
-  padding: 3em;
-  /* background-color: azure; */
+  /* position: absolute; */
 
-  border: 1px solid;
+  padding: 3em;
+  background-color: #ffffff;
+
+  /* border: 1px solid; */
 }
 
 .col-right {
   width: 70%;
   padding: 3em;
-  background-color: beige;
+  background-color: #ffffff;
+}
+
+/* header */
+
+.header-content {
+  background-color: #ffffff;
 }
 
 /* navigation */
+
+.nav {
+  padding: 0 3em;
+}
 
 .nav-list {
   display: flex;
@@ -97,7 +111,7 @@ h3 {
 }
 
 .nav-item {
-  margin-left: 1em;
+  margin-left: 1.5em;
 }
 
 .nav-link {
@@ -120,7 +134,7 @@ h3 {
 /* main */
 
 .main {
-  margin-top: 2em;
+  /* margin-top: 2em; */
 }
 
 /* info */
@@ -129,6 +143,15 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.my-photo {
+  /* width: 220px; */
+  /* margin: 0 auto; */
+
+  width: 14em;
+  border: 1px solid #dbdbdb;
+  border-radius: 999px;
 }
 
 /* contacts list */
@@ -147,6 +170,27 @@ h3 {
 
 .list-item img {
   margin-right: 1em;
+
+  width: 2em;
+}
+
+.list-item p {
+  margin: 0.6em 0;
+}
+
+.list-item a {
+  /* font-size: 1.8rem; */
+  /* font-weight: 500; */
+  color: #404040;
+
+  text-decoration: none;
+
+  /* border: 1px solid; */
+}
+
+.list-item a:hover,
+.list-item a:focus {
+  color: #000000;
 }
 
 .flex {
@@ -155,15 +199,6 @@ h3 {
 
 .col {
   border: 1px solid green;
-}
-
-.my-photo {
-  /* width: 220px; */
-  /* margin: 0 auto; */
-
-  width: 14em;
-  border: 1px solid #dbdbdb;
-  border-radius: 999px;
 }
 
 .footer {
