@@ -19,10 +19,8 @@ body {
   border: 1px solid magenta;
 }
 
-.container-flex {
+.flex {
   display: flex;
-
-  border: 5px solid saddlebrown;
 }
 
 .col {
@@ -42,10 +40,13 @@ body {
 }
 
 .footer {
+  background-color: #505050;
+}
+
+.footer-content {
   display: flex;
   justify-content: space-between;
-
-  background-color: #505050;
+  align-items: center;
 }
 
 .my-github {
