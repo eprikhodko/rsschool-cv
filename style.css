@@ -48,6 +48,14 @@ strong {
   letter-spacing: 2px;
 }
 
+h3 {
+  padding-bottom: 0.25em;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid;
+}
+
 /* ==================
     general layout
 ===================== */
@@ -60,13 +68,17 @@ strong {
 }
 
 .col-left {
-  padding: 1.5em;
+  width: 30%;
+
+  padding: 3em;
   /* background-color: azure; */
 
   border: 1px solid;
 }
 
 .col-right {
+  width: 70%;
+  padding: 3em;
   background-color: beige;
 }
 
@@ -80,7 +92,8 @@ strong {
   padding: 1.5em 0;
 
   list-style: none;
-  border: 1px solid;
+
+  /* border: 1px solid; */
 }
 
 .nav-item {
@@ -118,6 +131,24 @@ strong {
   align-items: center;
 }
 
+/* contacts list */
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-item img {
+  margin-right: 1em;
+}
+
 .flex {
   display: flex;
 }
@@ -136,7 +167,7 @@ strong {
 }
 
 .footer {
-  background-color: #505050;
+  /* background-color: #505050; */
 }
 
 .footer-content {
