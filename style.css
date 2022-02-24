@@ -71,13 +71,15 @@ h3 {
 
 .col-left {
   width: 30%;
-  padding: 3em;
-  background-color: #ffffff;
 }
 
 .col-right {
   width: 70%;
-  padding: 3em;
+}
+
+.col-left,
+.col-right {
+  padding: 0 3em 3em 3em;
   background-color: #ffffff;
 }
 
@@ -179,6 +181,10 @@ h3 {
 .github-icon {
   width: 2em;
   margin-right: 1em;
+}
+
+.copyright {
+  margin-right: 4em;
 }
 
 /* other styles */
