@@ -39,18 +39,11 @@ strong {
   color: #505050;
 }
 
-.role-title {
-  margin-top: 0;
-
-  font-size: 1.6rem;
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: 2px;
-}
-
-h3 {
+h2 {
   padding-bottom: 0.25em;
+  margin-top: 2em;
 
+  font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   border-bottom: 2px solid;
@@ -58,6 +51,17 @@ h3 {
 
 .text-white {
   color: #ffffff;
+}
+
+.role-title {
+  margin-top: 0;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: none;
+  border-bottom: none;
 }
 
 /* ==================
